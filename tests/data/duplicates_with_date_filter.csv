@@ -1,0 +1,5 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-01-15","Old Transaction","Shopping","Shopping","General","",$10.00,$0.00,"Cleared"
+"Checking","","2025-01-15","Old Transaction","Shopping","Shopping","General","Duplicate",$10.00,$0.00,"Cleared"
+"Checking","","2025-11-20","Recent Purchase","Shopping","Shopping","General","",$20.00,$0.00,"Cleared"
+"Checking","","2025-11-20","Recent Purchase","Shopping","Shopping","General","Duplicate",$20.00,$0.00,"Cleared"

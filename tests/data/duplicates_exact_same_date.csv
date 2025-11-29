@@ -1,0 +1,4 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-11-20","Starbucks","Food & Dining","Food & Dining","Coffee Shops","Morning coffee",$5.50,$0.00,"Cleared"
+"Checking","","2025-11-20","Starbucks","Food & Dining","Food & Dining","Coffee Shops","Duplicate charge",$5.50,$0.00,"Cleared"
+"Checking","","2025-11-21","Grocery Store","Food & Dining","Food & Dining","Groceries","",$45.00,$0.00,"Cleared"

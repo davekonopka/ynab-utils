@@ -1,0 +1,3 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-11-20","Store1","Category","Group","Cat","",$25.00,$0.00,"Cleared"
+"Checking","","2025-11-21","Store2","Category","Group","Cat","",$30.00,$0.00,"Cleared"

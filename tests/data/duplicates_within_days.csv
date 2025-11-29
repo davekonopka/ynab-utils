@@ -1,0 +1,4 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-11-20","Amazon","Shopping","Shopping","Online","",$25.00,$0.00,"Cleared"
+"Checking","","2025-11-22","Amazon","Shopping","Shopping","Online","2 days later",$25.00,$0.00,"Cleared"
+"Checking","","2025-11-23","Walmart","Shopping","Shopping","General","",$50.00,$0.00,"Cleared"

@@ -1,0 +1,5 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-11-20","Starbucks","Food & Dining","Food & Dining","Coffee Shops","",$5.50,$0.00,"Cleared"
+"Checking","","2025-11-21","Amazon","Shopping","Shopping","Online","",$25.00,$0.00,"Cleared"
+"Checking","","2025-11-22","Walmart","Shopping","Shopping","General","",$50.00,$0.00,"Cleared"
+"Checking","","2025-11-23","Gas Station","Transportation","Transportation","Gas","",$40.00,$0.00,"Cleared"

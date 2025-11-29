@@ -1,0 +1,4 @@
+"Account","Flag","Date","Payee","Category Group/Category","Category Group","Category","Memo","Outflow","Inflow","Cleared"
+"Checking","","2025-11-20","Starbucks","Food & Dining","Food & Dining","Coffee Shops","",$5.50,$0.00,"Cleared"
+"Checking","","2025-11-20","Starbuck","Food & Dining","Food & Dining","Coffee Shops","Missing 's'",$5.50,$0.00,"Cleared"
+"Checking","","2025-11-22","Target","Shopping","Shopping","General","",$30.00,$0.00,"Cleared"
