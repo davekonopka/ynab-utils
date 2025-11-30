@@ -35,8 +35,8 @@ dev = [
 ynab-utils = "ynab_utils.cli:main"
 
 [build-system]
-requires = ["uv>=0.12.0"]
-build-backend = "uv"
+requires = ["hatchling", "uv>=0.12.0"]
+build-backend = "hatchling.build"
 
 [tool.ruff]
 line-length = 140
