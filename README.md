@@ -2,6 +2,16 @@
 
 A collection of command line utilities for YNAB (You Need a Budget) users.
 
+## Installation
+
+```bash
+# Install from PyPI
+pip install ynab-utils
+
+# Or install with uv
+uv tool install ynab-utils
+```
+
 ## Quick Start
 
 ```bash
@@ -22,19 +32,19 @@ Find potential duplicate transactions in your YNAB export.
 
 ```bash
 # Basic usage - finds exact duplicates on same date
-uv run ynab-utils detect-dupes --file transactions.csv
+ynab-utils detect-dupes --file transactions.csv
 
 # Show all confidence levels (1=loosest, 5=strictest)
-uv run ynab-utils detect-dupes --file transactions.csv --confidence 1
+ynab-utils detect-dupes --file transactions.csv --confidence 1
 
 # Only check recent transactions
-uv run ynab-utils detect-dupes --file transactions.csv --start-date 2025-01-01
+ynab-utils detect-dupes --file transactions.csv --start-date 2025-01-01
 
 # Adjust date matching window (default: 2 days)
-uv run ynab-utils detect-dupes --file transactions.csv --days 5
+ynab-utils detect-dupes --file transactions.csv --days 5
 
 # Output as JSON
-uv run ynab-utils detect-dupes --file transactions.csv --output json
+ynab-utils detect-dupes --file transactions.csv --output json
 ```
 
 **Confidence levels:**
@@ -47,12 +57,19 @@ uv run ynab-utils detect-dupes --file transactions.csv --output json
 ## Development
 
 ```bash
+# Clone the repository
+git clone https://github.com/davekonopka/ynab-utils.git
+cd ynab-utils
+
 # Install dev dependencies (includes pre-commit)
 uv sync --extra dev
 
 # Set up pre-commit hooks
 uv run pre-commit install
 uv run pre-commit install --hook-type commit-msg
+
+# Run the CLI during development
+uv run ynab-utils --help
 
 # Run tests
 uv run pytest
@@ -74,3 +91,13 @@ uv run pre-commit run --all-files
 - `feat(detect-dupes): add --start-date filter`
 - `fix(cli): correct argument parsing for --output`
 - `test: add integration tests for date filtering`
+
+## Publishing
+
+```bash
+# Build distribution packages
+uv build
+
+# Upload to PyPI (requires PyPI token)
+uv publish
+```
