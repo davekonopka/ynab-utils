@@ -1,6 +1,6 @@
 [project]
 name = "ynab-utils"
-version = "0.1.0"
+version = "1.0.0"
 authors = [
     { name = "Dave Konopka", email = "dave.konopka@gmail.com" },
 ]
